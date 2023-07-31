@@ -50,11 +50,10 @@ segmentation annotation은 json file로 제공됩니다.
 - 29 class : finger-1, finger-2, finger-3, finger-4, finger-5, finger-6, finger-7, finger-8, finger-9, finger-10, finger-11, finger-12, finger-13, finger-14, finger-15, finger-16, finger-17, finger-18, finger-19, Trapezium, Trapezoid, Capitate, Hamate, Scaphoid, Lunate, Triquetrum, Pisiform, Radius, Ulna
 - 이미지 크기 : (2048, 2048)
 - 주요 문제점
-  |특징|이미지|
-  |:---:|:---:|
-  |Multi-label classification: 다수의 클래스로 분류해야하는 pixel 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/2326dfa7-9762-4268-bd36-c5b394995ddc)|
-  |Segmentation: 경계가 모호한 사진 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/5618ac55-d63e-4204-9324-b92b5e7ec658)|
-  |장신구 착용|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/38f634cc-8901-41a4-860c-42d8a839ed60)|
+  - Multi-label classification: 다수의 클래스로 분류해야하는 pixel 존재
+  - 경계가 모호한 사진 존재
+  - 장신구 착용
+
 
 - **모델 선정 및 분석**
     - Architecture 
