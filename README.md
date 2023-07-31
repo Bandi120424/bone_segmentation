@@ -5,7 +5,8 @@
   
 ## **✏️** Project Overview
 
-![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/33010c45-f301-43b2-8ec3-b39ef58f1854)
+![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/56c10486-1d9c-4efe-9705-9e850b8ca957)
+
 Bone Segmentation은 인공지능에서 중요한 응용 분야 중 하나로, 다양한 목적으로 도움을 줄 수 있습니다. 이렇게 만들어진 우수한 성능 모델은 질병 진단, 수술 계획, 의료 장비 제작, 의료 교육 등에 사용될 수 있을 것으로 기대됩니다.🌎
 
 - **Input :** hand bone x-ray 객체가 담긴 이미지가 모델의 input으로 사용됩니다.
@@ -41,8 +42,6 @@ segmentation annotation은 json file로 제공됩니다.
 | 서지희 | FCN, UNet, UNet++ | EDA, 모델 리서치, pytorch-lightning 실험 환경 세팅, Augmentation 리서치 및 실험, 시각화 구현, 모델 앙상블 구현 |
 | 한나영 | UNet++, FCN | EDA, Jira 세팅, 모델 리서치, mmsegmengtation, smp 및 pytorch-lightning 실험 환경 세팅, SWA ,모델 앙상블 구현 |
 
-![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/ec2ffb58-48fd-4e16-9750-c38799d16c37)
-
 
 ## **❓** Dataset & EDA
 
@@ -53,9 +52,9 @@ segmentation annotation은 json file로 제공됩니다.
 - 주요 문제점
   |특징|이미지|
   |:---:|:---:|
-  |Multi-label classification: 다수의 클래스로 분류해야하는 pixel 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/69ee56b6-6707-431a-9af1-151477df999b)|
-  |Segmentation: 경계가 모호한 사진 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/8b1f861c-ccc7-4ba7-af34-b254761eed40)|
-  |장신구 착용|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/3b3ebc46-08a7-4b7a-8488-afd9b3a6bfc7)|
+  |Multi-label classification: 다수의 클래스로 분류해야하는 pixel 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/2326dfa7-9762-4268-bd36-c5b394995ddc)|
+  |Segmentation: 경계가 모호한 사진 존재|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/5618ac55-d63e-4204-9324-b92b5e7ec658)|
+  |장신구 착용|![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/38f634cc-8901-41a4-860c-42d8a839ed60)|
 
 - **모델 선정 및 분석**
     - Architecture 
@@ -69,8 +68,4 @@ segmentation annotation은 json file로 제공됩니다.
     - HRNet Backbone: High Resolution과 병렬로 Low Resolution을 적용해 전체 stage에서 높은 해상도를 유지합니다. 
 
 ## **:scroll: 프로젝트 수행 결과**
-
-
-
-![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/76798969/2fa1b91a-b3c8-4c8f-a0dd-6a7a4254eb3d)
-
+![image](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-04/assets/19367749/4bb555f5-bb71-41e2-a4ef-9d270e32f206)
